@@ -22,11 +22,10 @@ $ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2
 ```
 or
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 gfortran --version
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 R --version
 ```
 
-## Compile, link and run a Fortran program
+## Run a R program
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 gfortran -Wall -o test /source/test.r
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 ./test
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 R -f test.r
 ```
