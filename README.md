@@ -7,26 +7,26 @@ $ docker pull -t cmplopes/alpine-r:[TAG]
 
 ## Suported Tags
 
-[6.4, latest (over alpine:3.7) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/6.4/Dockerfile)
+[3.4.3, latest (over alpine:edge) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.4.3/Dockerfile)
 
-[6.3 (over alpine:3.6) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/6.3/Dockerfile)
+[3.4.2 (over alpine:3.7) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.4.2/Dockerfile)
 
-[6.2 (over alpine:3.5) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/6.2/Dockerfile)
+[3.3.3 (over alpine:3.6) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.3.3/Dockerfile)
 
-[5.3 (over alpine:3.4) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/5.3/Dockerfile)
+[3.3.2 (over alpine:3.5) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.3.2/Dockerfile)
 
 
 ## Check R version
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:6.3
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2
 ```
 or
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:6.3 gfortran --version
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 gfortran --version
 ```
 
 ## Compile, link and run a Fortran program
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:6.3 gfortran -Wall -o test /source/test.r
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:6.3 ./test
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 gfortran -Wall -o test /source/test.r
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 ./test
 ```
