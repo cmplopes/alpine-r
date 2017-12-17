@@ -5,3 +5,4 @@ RUN apk add --no-cache bash bash-doc bash-completion
 RUN apk add --no-cache R
 
 WORKDIR /app
+CMD R --version
