@@ -18,14 +18,14 @@ $ docker pull -t cmplopes/alpine-r:[TAG]
 
 ## Check R version
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2
+$ docker run --rm -it -v $(pwd):/app cmplopes/alpine-r:3.4.2
 ```
 or
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 R --version
+$ docker run --rm -it -v $(pwd):/app cmplopes/alpine-r:3.4.2 R --version
 ```
 
 ## Run a R program
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-r:3.4.2 R -f test.r
+$ docker run --rm -it -v $(pwd):/app cmplopes/alpine-r:3.4.2 R -f test.r
 ```
