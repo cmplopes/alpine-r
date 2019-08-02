@@ -7,7 +7,9 @@ $ docker pull -t cmplopes/alpine-r:[TAG]
 
 ## Suported Tags
 
-[3.5.1, latest (over alpine:3.9) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.5.1/Dockerfile)
+[3.6.1, latest (over alpine:3.10) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.6.1/Dockerfile)
+
+[3.5.1 (over alpine:3.9) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.5.1/Dockerfile)
 
 [3.5.0 (over alpine:3.8) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.5.0/Dockerfile)
 
