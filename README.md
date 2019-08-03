@@ -30,7 +30,7 @@ or
 ```
 $ docker run --rm -it -v $(pwd):/app cmplopes/alpine-r:3.4.2 R --version
 ```
-
+ 
 ## Run a R program
 ```
 $ docker run --rm -it -v $(pwd):/app cmplopes/alpine-r:3.4.2 R -f test.r
