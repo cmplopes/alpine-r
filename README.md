@@ -13,13 +13,9 @@ $ docker pull -t cmplopes/alpine-r:[TAG]
 
 [3.5.1 - (R 3.5.1-r1 over alpine:3.9) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.5.1/Dockerfile)
 
-[3.5.0 - (R 3.5.0-r1 over alpine:3.8) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.5.0/Dockerfile)
-
 [3.4.2 - (R 3.4.2-r0 over alpine:3.7) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.4.2/Dockerfile)
 
 [3.3.3 - (R 3.3.3-r0 over alpine:3.6) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.3.3/Dockerfile)
-
-[3.3.2 - (R 3.3.2-r0 over alpine:3.5) (Dockerfile)](https://github.com/cmplopes/alpine-r/blob/master/3.3.2/Dockerfile)
 
 
 ## Check R version
