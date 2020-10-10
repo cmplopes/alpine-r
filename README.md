@@ -2,7 +2,7 @@
 Docker R over Alpine Linux
 
 ```
-$ docker pull -t cmplopes/alpine-r:[TAG]
+$ docker pull cmplopes/alpine-r:[TAG]
 ```
 
 ## Suported Tags
